@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     background-image: url("images/diagonal-stripes.svg");
@@ -5,6 +11,9 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
+    line-height: 1.5;
+
+   
 }
 
 h1 {
@@ -15,12 +24,19 @@ h1 {
     font-style: italic;
 }
 
-/* 
-3. Style the button according to the provided design
-text color - #016f32
-width      - 150px
-background - goldenrod
- */
+#message-el,#sum-el, #card-el {
+    margin: 10px;
+    font-size: 20px;
+}
+
+ #btn-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
  
 button {
     color: #016f32;
@@ -31,9 +47,12 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    transition: 0.5s ease-out;
 }
 
 button:hover {
     cursor: pointer;
     background-color: #e6b800;
+    color: #3aa56a;
+    transform: scale(1.05, 1.05);
 }
