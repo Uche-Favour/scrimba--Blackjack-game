@@ -1,1 +1,2 @@
-A Blackjack game I built during my Fullstack development course on Scrimba
+This is a simple blackjack game I built during my Fullstack development course on Scrimba.
+
