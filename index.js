@@ -50,7 +50,7 @@ function renderGame(){
     }
 
     sumEl.textContent = `Sum: ${sum}`;
-    playerEl.textContent = player.name + ": $" + player.chips;
+    playerEl.textContent = `${player.name} : ${player.chips}`; 
 
     if (sum <= 20 ) {
     message = "Do you want to draw a new card? 🙂";
